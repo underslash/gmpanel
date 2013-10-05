@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<plugins>
+    <plugin id="1">
+		<name>Home</name>
+		<source>index</source>
+		<author>Zic</author>
+	</plugin>
+    <plugin id="2">
+		<name>Giocatori</name>
+		<source>giocatori</source>
+		<author>Zic</author>
+	</plugin>
+</plugins>

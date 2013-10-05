@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<plugins>
+    <plugin id="1">
+		<name>Home</name>
+		<source>index</source>
+		<author>Zic</author>
+	</plugin>
+    <plugin id="2">
+		<name>GM</name>
+		<source>account_gm</source>
+		<author>Zic</author>
+	</plugin>
+    <plugin id="4">
+		<name>Crea Item</name>
+		<source>crea_item</source>
+		<author>Zic</author>
+	</plugin>
+    <plugin id="5">
+		<name>Esegui Query</name>
+		<source>query</source>
+		<author>Zic</author>
+	</plugin>
+</plugins>

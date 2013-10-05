@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<plugins>
+    <plugin id="1">
+		<name>Home</name>
+		<source>index</source>
+		<author>Zic</author>
+	</plugin>
+    <plugin id="2">
+		<name>Sbugga Pg</name>
+		<source>sbugga_pg</source>
+		<author>Zic</author>
+	</plugin>
+    <plugin id="2">
+		<name>Mappe</name>
+		<source>map</source>
+		<author>Zic</author>
+	</plugin>
+</plugins>
