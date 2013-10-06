@@ -22,11 +22,7 @@ class plugin {
 			'ret' => 'fetch-all'
 		]);
 		unset($db);
-		$text = '<script type=\'text/javascript\'>$(\'#map\').modal(\'show\');$(".pg_in_map").hover(
-   function() {
-      $("#map .nomepg").html($(this).data("name") + "<span class=\"badge pull-right\" style=\"margin-left:20px\">Lv " + $(this).data("lv") + "</span>");
-   }
-);</script><map name="map_pg">';
+		$text = '<script type=\'text/javascript\'>$(\'#map\').modal(\'show\');$(".pg_in_map").hover(function() {      $("#map .nomepg").html($(this).data("name") + "<span class=\"badge pull-right\" style=\"margin-left:20px\">Lv " + $(this).data("lv") + "</span>");});</script><map name="map_pg">';
 		$im=imagecreatefromjpeg("core/s/user/maps/".$_POST['map_id'].".jpg");     
 		$white = ImageColorAllocate($im, 122, 227, 93);
 		foreach($pgs as $pg){
