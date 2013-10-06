@@ -1,6 +1,5 @@
 <?php
 class plugin {
-	private $maps;
     public function __construct()
     {
         global $_GET, $_POST, $_SESSION;
