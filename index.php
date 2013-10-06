@@ -82,6 +82,7 @@ if(!in_array($_GET['area'],$utente['perm'])) exit("Non disponi di permessi suffi
 					})
 				}
 			}
+			$(document).on("click",".alert",function(){$(this).animate({opacity:0},function(){$(this).slideUp("normal",function(){$(this).css("opacity","")})})})
 			$(document).on('click', 'input[type=submit]', function() {
 				$(this).closest("form").validate({
 					submitHandler: function(form) {

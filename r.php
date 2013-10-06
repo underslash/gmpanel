@@ -58,9 +58,6 @@ if(isset($_GET['area'],$_GET['url'])){
 	}else Messaggio("Pagina non trovata (404)", "warning");
 }
 function Messaggio($testo, $tipo){
-?>
-<script type="text/javascript">$(".alert").on("click",function(){$(this).animate({opacity:0},function(){$(this).slideUp("normal",function(){$(this).css("opacity","")})})})</script>
-<?php
 	echo "<div class=\"alert alert-",$tipo,"\">",$testo,"</div>";
 }
 ?>
